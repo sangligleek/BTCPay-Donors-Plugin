@@ -36,11 +36,11 @@ Go to your BTCPay Server Store's settings and copy the `Store ID` to the plugin 
 
 Go to your BTCPay Server Account's settings, and click the `API Keys` tab.
 
-<img src="docs/btcpay-keys.png" style="width: 500px;" />
+<img src="BTCPay Donors/docs/btcpay-keys.png" style="width: 500px;" />
 
 Generate a new key and click `Select specific stores` for `View invoices`. Select your store, then generate the key with the submit button.
 
-<img src="docs/btcpay-add-key.png" style="width: 500px;" />
+<img src="BTCPay Donors/docs/btcpay-add-key.png" style="width: 500px;" />
 
 Copy the generated key to `API Key` in the plugin settings page.
 
@@ -48,11 +48,11 @@ Copy the generated key to `API Key` in the plugin settings page.
 
 Go to your BTCPay Server Store's settings, and click the `Webhooks` tab.
 
-<img src="docs/btcpay-webhooks.png" style="width: 500px;" />
+<img src="BTCPay Donors/docs/btcpay-webhooks.png" style="width: 500px;" />
 
 Create a new webhook with URL `https://your-website.org/wp-json/btcpay-donors/v1/callback`, triggered by the specific event `an invoice has been settled`. Copy the secret to `Store Secret` in the plugin settings page.
 
-<img src="docs/btcpay-add-webhook.png" style="width: 500px;" />
+<img src="BTCPay Donors/docs/btcpay-add-webhook.png" style="width: 500px;" />
 
 ### Minimum Donation Amount and Currency
 
