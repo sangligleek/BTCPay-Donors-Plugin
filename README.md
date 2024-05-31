@@ -111,6 +111,6 @@ Tested with:
 
 ## Screenshots
 
-<img src="docs/settings.png" />
-<img src="docs/admin-donors.png" />
-<img src="docs/donors.png" />
+<img src="BTCPay Donors/docs/settings.png" />
+<img src="BTCPay Donors/docs/admin-donors.png" />
+<img src="BTCPay Donors/docs/donors.png" />
