@@ -124,7 +124,7 @@ Description: This file provides help documentation for the BTCPay Donors plugin.
 
 <div class="section">
     <h2>Documentation</h2>
-    <p>For more details, visit the documentation on <a href="https://github.com/your-repo/btcpay-donors">GitHub</a>.</p>
+    <p>For more details, visit the documentation on <a href="https://github.com/sangligleek/BTCPay-Donors-Plugin">GitHub</a>.</p>
 </div>
 
 <style>
