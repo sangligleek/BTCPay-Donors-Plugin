@@ -30,7 +30,7 @@ the list of donors on your website.
 
 Go to your BTCPay Server Store's settings and copy the `Store ID` to the plugin settings page.
 
-<img src="docs/btcpay-id.png" style="width: 500px;" />
+<img src="BTCPay Donors/docs/btcpay-id.png" style="width: 500px;" />
 
 #### Get your API Key
 
