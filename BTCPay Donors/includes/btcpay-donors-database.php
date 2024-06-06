@@ -49,11 +49,9 @@ function btcpay_donors_add_donor($name, $amount)
   global $wpdb;
   global $btcpay_donors_donors_table_name;
 
-  // Vérifiez si le donateur existe déjà
   $existing_donor = $wpdb->get_row($wpdb->prepare("SELECT * FROM $btcpay_donors_donors_table_name WHERE name = %s", $name));
 
   if ($existing_donor) {
-    // Si le donateur existe, mettez à jour uniquement le montant
     return $wpdb->update(
       $btcpay_donors_donors_table_name,
       array('amount' => $amount),
@@ -62,7 +60,6 @@ function btcpay_donors_add_donor($name, $amount)
       array('%d')
     );
   } else {
-    // Sinon, ajoutez un nouveau donateur
     return $wpdb->insert(
       $btcpay_donors_donors_table_name,
       array(
